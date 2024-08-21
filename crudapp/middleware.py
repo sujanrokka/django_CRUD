@@ -2,7 +2,7 @@ from django.http import HttpResponseForbidden
 
 class IPFilterMiddleware:
     # ALLOWED_IPS = ['127.0.0.1', '182.93.85.133']  #  allowed IPs
-    ALLOWED_IPS = ['127.0.0.1', '182.93.85.133']  
+    ALLOWED_IPS = ['182.93.85.133']  
     def __init__(self, get_response):
         self.get_response = get_response
 
