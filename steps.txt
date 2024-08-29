@@ -1,0 +1,4 @@
+1.pip install django-ckeditor
+2.add ckeditor app to the settings.py
+3.modify the model and use RichTextField
+4.use safe keyword and {{ form.media }} if used.

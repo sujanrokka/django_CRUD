@@ -32,7 +32,7 @@
                         <th scope="row">{{forloop.counter}}</th>
                         <td>{{stud.name}}</td>
                         <td>{{stud.roll}}</td>
-                        <td>{{stud.city}}</td>
+                        <td>{{stud.city |safe }}</td>
                         <td class="aline-inline">
                             <table>
                                 <tr>
